@@ -113,7 +113,5 @@ mark, it add cursor to each line (it call `mc/edit-lines')."
       (delq 'smart-region
             mc/cmds-to-run-for-all))
 
-(mc/save-lists)
-
 (provide 'smart-region)
 ;;; smart-region.el ends here
